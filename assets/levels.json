@@ -1,0 +1,19 @@
+[
+	{ "map": "basic", "name": "Basic" },
+	{ "map": "snek", "name": "Snek" },
+	{ "map": "checker", "name": "Confidence" },
+	{ "map": "tubes", "name": "Tendrils" },
+	{ "map": "bytedesigning", "name": "Bytedesigning" },
+	{ "map": "bumpy", "name": "Bumpy" },
+	{ "map": "choices", "name": "Layers" },
+	{ "map": "jump", "name": "Leap" },
+	{ "map": "stack", "name": "#stacked" },
+	{
+		"map": "credits",
+		"name": "Thank You For Playing",
+		"unused": [
+			{ "map": "magic", "name": "Magic" },
+			{ "map": "portal", "name": "Portal" }
+		]
+	}
+]

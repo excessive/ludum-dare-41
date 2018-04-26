@@ -1,0 +1,18 @@
+-cp src/backend/love/bindings
+-cp src
+
+# -D imgui
+-D analyzer
+-dce full
+
+-resource src/render/shaders/debug.glsl@shader_debug
+-resource src/render/shaders/sky.glsl@shader_sky
+-resource src/render/shaders/post.glsl@shader_post
+-resource src/render/shaders/basic.glsl@shader_basic
+-resource src/render/shaders/terrain.glsl@shader_terrain
+-resource src/render/shaders/fxaa.glsl@shader_fxaa
+
+-main Main
+-lua main.lua
+
+-cmd "bin\love ."

@@ -1,0 +1,14 @@
+-D no-compilation
+-D luajit
+-D lua-ver=5.1
+-D desktop
+-D haxe_octree
+-D imgui
+-D analyzer
+
+-cp src
+-cp src/bindings
+-cp src/backend/love/bindings
+
+-main Main
+-lua main.lua
